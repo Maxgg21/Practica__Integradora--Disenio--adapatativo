@@ -109,6 +109,10 @@ main section.seccion__productos {
     margin: 0px auto;
 }
 
+main div.banner img {
+    width: 100%;
+}
+
 main section.seccion__productos h4.seccion__productos--titulo {
     font-size: var(--titulos);
     color: var(--gris-oscuro);
@@ -123,10 +127,9 @@ main section.seccion__productos article {
     background-color: white;
 }
 
-main section.seccion__productos article seccion__productos--image {
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+main section.seccion__productos article div.seccion__productos-image img {
+    width: 100%;
+}
 
 main section.seccion__productos article div.seccion__productos--descripcion {
     border-top: 1px solid var(--gris-claro);
